@@ -21,9 +21,9 @@ frontend folder and cut everything inside frontend folder
 
 # Steps in back end for posts
 
-* Create a posts folder then run npm init -y
+* Create a posts folder, then go inside the posts folder and run npm init -y
 
-* Then run npm install express cors axios nodemon body-parser dotenv morgan
+* Then run npm install express cors axios nodemon body-parser dotenv morgan inside the posts folder
 
 * Then create src folder inside posts folder. Inside src folder, create index.js file If needed
 
@@ -41,9 +41,9 @@ frontend folder and cut everything inside frontend folder
 
 # Repeat the Same Steps in back end for comments
 
-* Create a comments folder then run npm init -y
+* Create a comments folder, then go inside the comments folder and run npm init -y
 
-* Then run npm install express cors axios nodemon body-parser dotenv morgan
+* Then run npm install express cors axios nodemon body-parser dotenv morgan inside the comments folder
 
 * Then create src folder inside comments folder. Inside src folder, create index.js file If needed
 
