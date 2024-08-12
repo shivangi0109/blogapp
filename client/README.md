@@ -19,6 +19,8 @@ frontend folder and cut everything inside frontend folder
 
 * Then push using git push -u origin main
 
+* Install axios in the client side
+
 # Steps in back end for posts
 
 * Create a posts folder, then go inside the posts folder and run npm init -y
