@@ -41,6 +41,8 @@ frontend folder and cut everything inside frontend folder
 
 * Commit all the changes now
 
+* Upgrade the axios verion for compatibilty, whenever started using axios in the backend for comments. See the instructions below.
+
 # Repeat the Same Steps in back end for comments
 
 * Create a comments folder, then go inside the comments folder and run npm init -y
@@ -60,6 +62,8 @@ frontend folder and cut everything inside frontend folder
 * Test on the postman whether you are able to create a new comment and get all the comments
 
 * Commit all the changes now
+
+* Upgrade the axios verion for compatibilty, whenever started using axios in the backend for comments. See the instructions below.
 
 # Repeat the Same Steps in back end for event-bus
 
