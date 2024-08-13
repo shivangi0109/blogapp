@@ -83,4 +83,47 @@ frontend folder and cut everything inside frontend folder
 
 * Commit all the changes now
 
+# If app crashed due to axios in the backend and getting the error 
+
+## Change the version of axios -
+
+The error you're encountering is due to a mismatch between the ECMAScript module system (import/export) and the CommonJS module system (require). Node.js, by default, uses CommonJS, where require is used to load modules. However, it looks like the version of axios installed in your project is using ECMAScript modules, which uses the import statement.
+
+## Solutions - Switch to a Compatible Version of axios:
+If you want to stick with the CommonJS syntax, you can install an older version of axios that uses CommonJS instead of ECMAScript modules.
+
+```
+npm install axios@0.21.1
+```
+
+This version of axios will work with the require statement.
+
+## I have "axios": "^1.7.4", this version installed how to change to the 0.21.1 axios version
+
+## To downgrade the axios package to version 0.21.1, you can follow these steps:
+
+1. ## Uninstall the Current Version of axios:
+First, uninstall the current version of axios that's installed in your project.
+
+```
+npm uninstall axios
+```
+
+2. ## Install the Specific Version of axios:
+Now, install the 0.21.1 version of axios:
+
+```
+npm install axios@0.21.1
+```
+
+3. ## Verify the Installation:
+After installation, you can verify that the correct version is installed by checking the package.json file or by running:
+
+```
+npm list axios
+```
+
+This will install axios@0.21.1, which is compatible with the CommonJS require syntax used in your project.
+
+
 
