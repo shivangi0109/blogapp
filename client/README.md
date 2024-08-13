@@ -61,3 +61,26 @@ frontend folder and cut everything inside frontend folder
 
 * Commit all the changes now
 
+# Repeat the Same Steps in back end for event-bus
+
+* Create a event-bus folder, then go inside the event-bus folder and run npm init -y
+
+* Then run npm install express cors axios nodemon body-parser inside the event-bus folder
+
+* Upgrade the axios verion for compatibilty.
+
+* Then create src folder inside event-bus folder. Inside src folder, create index.js file If needed
+
+* OR directly create index.js file inside event-bus folder
+
+* IMP - Create .gitnore file under event-bus folder BEFORE ANY COMMIT and Add node_modules/ & .env into that file
+
+* Copy this line inside package.json file under scripts - "start": "./node_modules/.bin/nodemon -L index.js",
+
+* Then run npm start to check whether event-bus server is running
+
+* Create a get route just to check whether event-bus get route is working correctly
+
+* Commit all the changes now
+
+
