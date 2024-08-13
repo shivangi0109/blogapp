@@ -61,4 +61,3 @@ frontend folder and cut everything inside frontend folder
 
 * Commit all the changes now
 
-
