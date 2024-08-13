@@ -37,8 +37,14 @@ app.post('/posts/:id/comments', async (req, res) => {
   res.status(201).send(comments);
 });
 
+app.post('/events', (req, res) => {
+  console.log('Event Received:', req.body.type);
+
+  res.send({});
+});
+
 app.get('/', (req, res) => {
-  res.send('Welcome to the posts back end! 😃');
+  res.send('Welcome to the comments back end! 😃');
 });
 
 app.listen(PORT, () => {
