@@ -6,6 +6,28 @@ This project is a simple microservices-based application designed to create and 
 
 The application allows users to create posts and add comments to them. The architecture consists of multiple microservices, each handling a distinct part of the application’s functionality, including posts, comments, moderation, and a query service.
 
+## Final Product
+
+**Homepage:**
+
+!["View of Homepage"](client/public/docs/screenshots/homepage.png)
+
+**View of Adding New Posts:**
+
+!["View of Adding New posts"](client/public/docs/screenshots/add-new-posts.png)
+
+**View of Adding New Comments:**
+
+!["View of Adding New comments"](client/public/docs/screenshots/add-new-comments.png)
+
+**View of Rejecting the Comment if the Comment Contains the Word orange:**
+
+!["View of rejecting the comment if the commnet contains the word orange"](client/public/docs/screenshots/reject-the-comment-if-contains-orange-word.png)
+
+**View of Showing the comment that it is Awaiting Moderation when Moderation Service is Down:**
+
+!["View of showing the comment that it is awaiting moderation when moderation service is down"](client/public/docs/screenshots/comment-is-awaiting-moderation.png)
+
 # Features
 
 * **Create Posts:** Users can create new posts with a title.
