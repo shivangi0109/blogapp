@@ -84,6 +84,18 @@ The application uses a microservices architecture where each service is responsi
 
 3. Comments will be moderated, and their status will be displayed (Approved, Pending, or Rejected).
 
+# Tech Stack 🛠️
+
+* **Frontend:** React, Bootstrap
+  
+* **Backend:** Express.js
+
+* **Communication:** Axios (for API requests), Event Bus (for microservice communication)
+
+* **Architecture:** Microservices
+
+* **Languages:** JavaScript (Node.js)
+
 # Project Structure
 
 ```
