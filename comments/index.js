@@ -47,9 +47,13 @@ app.post('/events', async (req, res) => {
     const { postId, id, status , content } = data;
     const comments = commentsByPostId[postId];
 
+    console.log(comments);
+
     const comment = comments.find(comment => {
       return comment.id === id;
     });
+
+    console.log(comment);
 
     comment.status = status;
 
