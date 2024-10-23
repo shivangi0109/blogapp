@@ -37,10 +37,10 @@ let failedEvents = []; // Store failed event deliveries
 
 // Post events to services
 const services = [
-  'http://localhost:4000/events', // Posts Service
-  'http://localhost:4001/events', // Comments Service
-  'http://localhost:4002/events',  // Query Service
-  'http://localhost:4003/events'  // Moderation Service
+  'http://posts-clusterip-srv:4000/events', // Posts Service
+  // 'http://localhost:4001/events', // Comments Service
+  // 'http://localhost:4002/events',  // Query Service
+  // 'http://localhost:4003/events'  // Moderation Service
 ];
 
 app.post('/events', (req, res) => {
